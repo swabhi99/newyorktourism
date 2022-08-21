@@ -1,0 +1,32 @@
+body{
+    font-family: cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.419),rgba(0, 0, 0, 0.452)),url('https://wallpaperaccess.com/full/197590.jpg' );
+}
+
+.full{
+    height: 100vh;
+}
+.sidebar{
+    height: 100vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.868);
+    
+}
+.main{
+    
+    color: white;
+}
+.header>div{
+    transition: text-decoration 2s;
+    text-decoration-color: rgb(255, 78, 14);
+}
+.header>div:hover{
+    transition: 2s ease-in;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ex{
+    background-color: rgba(255, 78, 14, 0.814);
+    padding: 7%;
+}
